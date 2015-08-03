@@ -1,2 +1,2 @@
 # tjejerkodar
-Projects for Tjejer kodar. Här ska mina projekt ligga.
+Projects for Tjejer kodar. Här ska min sajt ligga.
