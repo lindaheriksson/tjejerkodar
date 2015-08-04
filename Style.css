@@ -1,15 +1,47 @@
+/* main elements*/
+
+
 body {
-	background-color: #009fe3;
+	margin: 0 auto:;
+	background-color: #7FC6A6;
 	font-family: helvetica;
 	width: 100%;
-
+	color: #000000;
 }
 
+#top, #bottom, #left, #right {
+	background: #000000;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 20px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 20px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+#footer {
+	background-color: #000000;
+	height: 40px;
+	clear: both;
+	color: #009fe3;
+}
+
+ /* font styles */
 h1 {
 	font-size: 10em;
 	text-align: center;
+}
 
-
+p {
+	font-size: 2em;
 }
 
 
